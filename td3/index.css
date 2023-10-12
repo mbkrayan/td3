@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.BlocOrange {
+    
+        position: absolute; 
+        top: 10%; 
+        width: 50%; 
+        height: 40%; 
+        background-color: #DA7049;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px; 
+        color: white;
+    }
+
+
+.Bloc1, .Bloc2, .Bloc3, .Bloc4 {
+    width: 100%; 
+}
+.Bloc1 {
+    height: 70%; 
+    background-color: #DCD9D8;
+}
+.Bloc2 {
+    height: 100%; 
+    background-image: url('df-min.jpg'); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+.Bloc3 {
+    height: 30%;
+    background-color: #DCD9D8;
+}
+
+.Bloc4 {
+    height: 10%;
+    background-color: #333333;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    
+}
